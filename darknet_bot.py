@@ -16,10 +16,7 @@ KOPFGELD_GEBUEHR = 200        # Kosten pro Kopfgeld
 ENTTARNEN_PREIS = 50000       # Kosten um jemanden zu enttarnen
 
 # Channel IDs (nach Server-Setup eintragen)
-CH_SCHWARZMARKT = 0
-CH_AUFTRAEGE = 0
-CH_KOPFGELDER = 0
-CH_LOG = 0  # Privater Admin-Log Channel
+from config import DARKNET_TOKEN as TOKEN, ADMIN_ID, CH_SCHWARZMARKT, CH_AUFTRAEGE, CH_KOPFGELDER, CH_LOG # Privater Admin-Log Channel
 # ──────────────────────────────────────────────────────────────────────────────
 
 intents = discord.Intents.default()
