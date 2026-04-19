@@ -8,8 +8,7 @@ import string
 from datetime import datetime
 
 # ─── CONFIG ───────────────────────────────────────────────────────────────────
-TOKEN = "DEIN_BOT_TOKEN"
-ADMIN_ID = 123456789  # Deine Discord User ID
+from config import DARKNET_TOKEN as TOKEN, ADMIN_ID
 EINTRITT_GEBUEHR = 5000       # Ingame Geld für Eintritt (manuell du gibst frei)
 INSERAT_GEBUEHR = 500         # Kosten pro Inserat (Schwarzmarkt)
 AUFTRAG_GEBUEHR = 300         # Kosten pro Auftrag
